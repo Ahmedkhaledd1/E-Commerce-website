@@ -64,3 +64,20 @@ footer ul li{
 footer ul li :hover{
     color: #e85a4f;
 }
+body main h2{
+    font-weight: 250;
+    font-size: 45px;
+    color: #d8c3a5;
+    text-transform: uppercase;
+}
+body main p {
+    
+    color:#e85a4f;
+    font-family:"consolas", sans-serif;
+    font-size: 25px;
+    
+}
+main {
+margin: 100px 40px ;
+
+}
