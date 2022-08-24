@@ -1,16 +1,19 @@
 .body-container {
-    background: #e98074;
+    background: white;
   }
   .container {
+    box-shadow: 0px 0px 4px  rgba(0, 0, 0, 0.3);
+    margin: 200px auto;
     border: 1px solid #e85a4f;
     border-radius: 12px;
     background: #eae7dc;
     display: flex;
+    padding: 20px;
     flex-direction: column;
     align-items: center;
-    margin: 30vh auto;
-    width: 45%;
-    height: 40vh;
+    /* margin: 30vh auto; */
+    width: 300px;
+    /* height: 40vh; */
     overflow: hidden;
   }
   .container form {
@@ -22,6 +25,7 @@
   .container h3 {
     font-size: 30px;
     color: #e98074;
+    align-self: center;
   }
   .username {
     padding: 16px;
@@ -32,9 +36,16 @@
     color: #e98074;
   }
   .username input {
-    width: 300px;
+    
+    margin: 10px 0px;
+    width: 100%; 
+    border-radius: 20px;
+    padding: 5px;
+    outline: none;
+    border:1px solid #999 ;
+    /* width: 300px;
     font-size: 20px;
-    border-radius: 6px;
+    border-radius: 6px; */
   }
   .password {
     padding: 16px;
@@ -45,9 +56,15 @@
       color: #e98074;
   }
   .password input {
-      width: 300px;
+    margin: 10px 0px;
+    width: 100%; 
+    border-radius: 20px;
+    padding: 5px;
+    outline: none;
+    border:1px solid #999 ;
+      /* width: 300px;
       font-size: 20px;
-      border-radius: 6px;
+      border-radius: 6px; */
   }
   #sign-in-button {
       padding: 14px 20px;
@@ -56,8 +73,9 @@
       transition: ease-in-out 0.3s;
       border: 1px solid  	#e85a4f;
       border-radius: 12px;
-      margin-left: auto;
-      margin-right: 40px;
+      /* margin-left: auto;
+      margin-right: 40px; */
+      align-self: center;
       font-weight: bold;
   }
   #sign-in-button:hover {
