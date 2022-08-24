@@ -1,0 +1,65 @@
+.body-container {
+    background: #e98074;
+  }
+  .container {
+    border: 1px solid #e85a4f;
+    border-radius: 12px;
+    background: #eae7dc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30vh auto;
+    width: 45%;
+    height: 40vh;
+    overflow: hidden;
+  }
+  .container form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container h3 {
+    font-size: 30px;
+    color: #e98074;
+  }
+  .username {
+    padding: 16px;
+    width: 70%;
+  }
+  .username label {
+    font-size: 24px;
+    color: #e98074;
+  }
+  .username input {
+    width: 300px;
+    font-size: 20px;
+    border-radius: 6px;
+  }
+  .password {
+    padding: 16px;
+    width: 70%;
+  }
+  .password label {
+      font-size: 24px;
+      color: #e98074;
+  }
+  .password input {
+      width: 300px;
+      font-size: 20px;
+      border-radius: 6px;
+  }
+  #sign-in-button {
+      padding: 14px 20px;
+      font-size: 22px;
+      background:  	#d8c3a5;
+      transition: ease-in-out 0.3s;
+      border: 1px solid  	#e85a4f;
+      border-radius: 12px;
+      margin-left: auto;
+      margin-right: 40px;
+      font-weight: bold;
+  }
+  #sign-in-button:hover {
+      background: #e98074;
+  }
