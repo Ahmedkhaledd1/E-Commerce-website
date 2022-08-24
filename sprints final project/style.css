@@ -29,6 +29,7 @@ body{
     cursor: pointer;
 }
 .single-product .column2 img{
+    border:1px solid #EAE7dc;
     margin-right: 20px;
     padding: 0;
 }
