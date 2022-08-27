@@ -26,10 +26,10 @@
     text-transform: uppercase;
     letter-spacing: 3px;
 }
-body{
+/* body{
     background: #eae7dc;
     min-height: 100vh;
-}
+} */
 .navbar ul li a{
     text-decoration: none;
     color: #d8c3a5;
