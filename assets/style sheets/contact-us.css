@@ -1,6 +1,13 @@
 .contact-us {
-    background: white;
-
+    background: #eae7dc;
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+}
+.contact-us h1 {
+    align-self: center;
+    font-size: 34px;
+    font-weight: bold;
 }
 .contact-us-form {
     display: flex;
@@ -23,4 +30,7 @@
     transition: ease-in-out 0.3s;
     border: 1px solid  	#e85a4f;
     border-radius: 12px;
+}
+#contact-us-button:hover {
+    background: #e98074;
 }
