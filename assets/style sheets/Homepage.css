@@ -1,0 +1,25 @@
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .main-content * {
+    width: 400px;
+    margin: 10px;
+  }
+  .product img {
+    width: 400px;
+  }
+  .product {
+    text-align: center;
+    transition: ease-in-out 0.3s;
+    overflow: hidden;
+  }
+  .product:hover {
+    box-shadow: 5px 5px 5px darkgrey;
+    cursor: pointer;
+  }
+  .product p {
+    font-size: 20px;
+  }
+  
